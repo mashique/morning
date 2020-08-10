@@ -10,7 +10,7 @@ public class AlertPopUpHandle {
 	public static void main(String[] args) throws InterruptedException {
 
 		
-		System.setProperty("webdriver.chrome.driver", "/Users/naveenkhunteta/Downloads/chromedriver");	
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium\\chromedriver_win32 (2)\\chromedriver.exe");	
 		WebDriver driver = new ChromeDriver(); //launch chrome
 		
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
